@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+
+</html>

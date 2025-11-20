@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Section }}</h1>
+{{ .Content }}
+<ul>
+  {{ range .Pages }}
+  <li>
+    <a href="{{ .RelPermalink }}">
+      {{ with .Title }}{{ . }}{{ else }}{{ .File.BaseFileName }}{{ end }}
+      <a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
