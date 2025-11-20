@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://korsakjakub.github.io/m/</loc>
   </url><url>
-    <loc>/foo/bar/</loc>
+    <loc>https://korsakjakub.github.io/m/foo/bar/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://korsakjakub.github.io/m/categories/</loc>
   </url><url>
-    <loc>/foo/</loc>
+    <loc>https://korsakjakub.github.io/m/foo/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://korsakjakub.github.io/m/tags/</loc>
   </url>
 </urlset>
